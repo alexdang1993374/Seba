@@ -73,10 +73,10 @@ function data() {
     {
       name: "Reflection Eternal",
       cover:
-        "https://images-na.ssl-images-amazon.com/images/I/51X-8sTHDGL._SX355_.jpg",
+        "https://img.discogs.com/2XQuzES3IV9NjW1I3snXGN7LGC8=/fit-in/600x599/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-2277348-1374917247-6471.jpeg.jpg",
       artist: "Nujabes",
       audio: reflection,
-      color: ["#774C95", "#D2EBDF"],
+      color: ["#E5A5BF", "#FDD38B"],
       id: uuidv4(),
       active: false,
     },
