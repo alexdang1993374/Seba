@@ -1,7 +1,7 @@
 import { v4 as uuidv4 } from "uuid";
 import blessingIt from "./audio/blessingit.wav";
 
-function chillHop() {
+function data() {
   return [
     {
       name: "Beaver Creek",
@@ -87,4 +87,4 @@ function chillHop() {
   ];
 }
 
-export default chillHop;
+export default data;
