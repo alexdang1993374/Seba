@@ -1,8 +1,19 @@
 import { v4 as uuidv4 } from "uuid";
+//Audio
 import blessingIt from "./audio/blessingit.wav";
 
 function data() {
   return [
+    {
+      name: "Blessing It",
+      cover:
+        "https://lastfm.freetls.fastly.net/i/u/500x500/d0923aa8b7a3fbb2d9b456306750c083.jpg",
+      artist: "Nujabes, Substantial, Pase Rock",
+      audio: blessingIt,
+      color: ["#FBFFFB", "#FEC46A"],
+      id: uuidv4(),
+      active: true,
+    },
     {
       name: "Beaver Creek",
       cover:
@@ -11,7 +22,7 @@ function data() {
       audio: "https://mp3.chillhop.com/serve.php/?mp3=10075",
       color: ["#205950", "#2ab3bf"],
       id: uuidv4(),
-      active: true,
+      active: false,
     },
     {
       name: "Daylight",
@@ -70,16 +81,6 @@ function data() {
       artist: "Blue Wednesday, Felty",
       audio: "https://mp3.chillhop.com/serve.php/?mp3=9334",
       color: ["#1A76B5", "#E7E15D"],
-      id: uuidv4(),
-      active: false,
-    },
-    {
-      name: "Blessing It",
-      cover:
-        "https://lastfm.freetls.fastly.net/i/u/500x500/d0923aa8b7a3fbb2d9b456306750c083.jpg",
-      artist: "Nujabes, Substantial, Pase Rock",
-      audio: blessingIt,
-      color: ["#FBFFFB", "#FEC46A"],
       id: uuidv4(),
       active: false,
     },
