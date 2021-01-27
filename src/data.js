@@ -1,6 +1,12 @@
 import { v4 as uuidv4 } from "uuid";
 //Audio
 import blessingIt from "./audio/blessingit.wav";
+import feather from "./audio/feather.wav";
+import kumomi from "./audio/kumomi.wav";
+import lady from "./audio/lady.wav";
+import reflection from "./audio/reflection.wav";
+import luv1 from "./audio/luv1.wav";
+import luv2 from "./audio/luv2.wav";
 
 function data() {
   return [
@@ -15,75 +21,66 @@ function data() {
       active: true,
     },
     {
-      name: "Beaver Creek",
+      name: "Feather",
       cover:
-        "https://chillhop.com/wp-content/uploads/2020/09/0255e8b8c74c90d4a27c594b3452b2daafae608d-1024x1024.jpg",
-      artist: "Aso, Middle School, Aviino",
-      audio: "https://mp3.chillhop.com/serve.php/?mp3=10075",
-      color: ["#205950", "#2ab3bf"],
+        "https://lastfm.freetls.fastly.net/i/u/ar0/e605e0031a208775b7ac76f8c34290e3.jpg",
+      artist: "Nujabes, Cise Starr, Akin",
+      audio: feather,
+      color: ["#BA2E25", "#327090"],
+      id: uuidv4(),
+      active: false,
+    },
+
+    {
+      name: "Lady Brown",
+      cover: "https://i1.sndcdn.com/artworks-000242434589-tww40w-t500x500.jpg",
+      artist: "Nujabes, Cise Starr",
+      audio: lady,
+      color: ["#DAAB7C", "#08070A"],
       id: uuidv4(),
       active: false,
     },
     {
-      name: "Daylight",
+      name: "Luv (sic)",
       cover:
-        "https://chillhop.com/wp-content/uploads/2020/07/ef95e219a44869318b7806e9f0f794a1f9c451e4-1024x1024.jpg",
-      artist: "Aiguille",
-      audio: "https://mp3.chillhop.com/serve.php/?mp3=9272",
-      color: ["#EF8EA9", "#ab417f"],
+        "https://img.discogs.com/cWrUrK4dWfGty1JAJiEAP6NsNJA=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-4374831-1374918126-8103.jpeg.jpg",
+      artist: "Nujabes, Shing02",
+      audio: luv1,
+      color: ["#8AACDC", "#5B449E", "#D15091"],
       id: uuidv4(),
       active: false,
     },
     {
-      name: "Keep Going",
+      name: "Luv (sic) pt2",
       cover:
-        "https://chillhop.com/wp-content/uploads/2020/07/ff35dede32321a8aa0953809812941bcf8a6bd35-1024x1024.jpg",
-      artist: "Swørn",
-      audio: "https://mp3.chillhop.com/serve.php/?mp3=9222",
-      color: ["#CD607D", "#c94043"],
+        "https://img.discogs.com/nQRu2IkKhUxzKjYjohtfdBgY1XI=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-717275-1590728754-5600.png.jpg",
+      artist: "Nujabes, Shing02",
+      audio: luv2,
+      color: ["#E2E6C3", "#E7A374", "#5D7335"],
       id: uuidv4(),
       active: false,
     },
     {
-      name: "Nightfall",
+      name: "Kumomi",
       cover:
-        "https://chillhop.com/wp-content/uploads/2020/07/ef95e219a44869318b7806e9f0f794a1f9c451e4-1024x1024.jpg",
-      artist: "Aiguille",
-      audio: "https://mp3.chillhop.com/serve.php/?mp3=9148",
-      color: ["#EF8EA9", "#ab417f"],
+        "https://images.genius.com/bc0e1ebb115f7517604adc5674b6a02a.600x600x1.jpg",
+      artist: "Nujabes",
+      audio: kumomi,
+      color: ["#D52A4A", "#6FB5D6"],
       id: uuidv4(),
       active: false,
     },
     {
-      name: "Reflection",
+      name: "Reflection Eternal",
       cover:
-        "https://chillhop.com/wp-content/uploads/2020/07/ff35dede32321a8aa0953809812941bcf8a6bd35-1024x1024.jpg",
-      artist: "Swørn",
-      audio: "https://mp3.chillhop.com/serve.php/?mp3=9228",
-      color: ["#CD607D", "#c94043"],
+        "https://images-na.ssl-images-amazon.com/images/I/51X-8sTHDGL._SX355_.jpg",
+      artist: "Nujabes",
+      audio: reflection,
+      color: ["#774C95", "#D2EBDF"],
       id: uuidv4(),
       active: false,
     },
-    {
-      name: "Under the City Stars",
-      cover:
-        "https://chillhop.com/wp-content/uploads/2020/09/0255e8b8c74c90d4a27c594b3452b2daafae608d-1024x1024.jpg",
-      artist: "Aso, Middle School, Aviino",
-      audio: "https://mp3.chillhop.com/serve.php/?mp3=10074",
-      color: ["#205950", "#2ab3bf"],
-      id: uuidv4(),
-      active: false,
-    },
-    {
-      name: "Caffine",
-      cover:
-        "https://chillhop.com/wp-content/uploads/2020/07/858b533ba20ff95bf5b401089b195d1a8cb43870-1024x1024.jpg",
-      artist: "Blue Wednesday, Felty",
-      audio: "https://mp3.chillhop.com/serve.php/?mp3=9334",
-      color: ["#1A76B5", "#E7E15D"],
-      id: uuidv4(),
-      active: false,
-    },
+
     //ADD MORE HERE
   ];
 }
