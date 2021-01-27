@@ -7,6 +7,7 @@ import lady from "./audio/lady.wav";
 import reflection from "./audio/reflection.wav";
 import luv1 from "./audio/luv1.wav";
 import luv2 from "./audio/luv2.wav";
+import luv3 from "./audio/luv3.wav";
 
 function data() {
   return [
@@ -57,6 +58,16 @@ function data() {
       artist: "Nujabes, Shing02",
       audio: luv2,
       color: ["#E2E6C3", "#E7A374", "#5D7335"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Luv (sic) pt3",
+      cover:
+        "https://img.discogs.com/mzS09Eng30IZQUR2xfIHgN5lm_g=/fit-in/500x502/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-6661930-1424106558-8339.jpeg.jpg",
+      artist: "Nujabes, Shing02",
+      audio: luv3,
+      color: ["#CBCACF", "#EEB2CC", "#B5DDE9"],
       id: uuidv4(),
       active: false,
     },
