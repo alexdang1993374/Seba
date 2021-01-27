@@ -8,6 +8,8 @@ import reflection from "./audio/reflection.wav";
 import luv1 from "./audio/luv1.wav";
 import luv2 from "./audio/luv2.wav";
 import luv3 from "./audio/luv3.wav";
+import fowl from "./audio/fowl.wav";
+import another from "./audio/another.wav";
 
 function data() {
   return [
@@ -78,6 +80,25 @@ function data() {
       artist: "Nujabes",
       audio: kumomi,
       color: ["#D52A4A", "#6FB5D6"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Far Fowls",
+      cover: "https://i1.sndcdn.com/artworks-000101632567-cyiskp-t500x500.jpg",
+      artist: "Nujabes",
+      audio: fowl,
+      color: ["#EE7AAB", "#14A7AF"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Another Reflection",
+      cover:
+        "https://img.rapzh.com/rapgod.swiftcarrot.com/4b7328ad9592d34da562a2177b4f5a2062f11dbb_400x400.jpg",
+      artist: "Nujabes",
+      audio: another,
+      color: ["#FBCD0D", "#46B5D0"],
       id: uuidv4(),
       active: false,
     },
