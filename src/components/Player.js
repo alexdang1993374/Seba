@@ -2,6 +2,7 @@ import React, { useRef, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faPlay,
+  faPause,
   faAngleLeft,
   faAngleRight,
 } from "@fortawesome/free-solid-svg-icons";
@@ -46,8 +47,8 @@ const Player = ({ currentSong, isPlaying, setIsPlaying }) => {
 
   //State
   const [songInfo, setSongInfo] = useState({
-    currentTime: null,
-    duration: null,
+    currentTime: 0,
+    duration: 0,
   });
 
   return (
@@ -55,11 +56,11 @@ const Player = ({ currentSong, isPlaying, setIsPlaying }) => {
       <div className="time-control">
         <p>{getTime(songInfo.currentTime)}</p>
         <input
+          type="range"
           min={0}
           max={songInfo.duration}
           value={songInfo.currentTime}
           onChange={dragHandler}
-          type="range"
         />
         <p>{getTime(songInfo.duration)}</p>
       </div>
@@ -69,7 +70,7 @@ const Player = ({ currentSong, isPlaying, setIsPlaying }) => {
           onClick={playSongHandler}
           className="play"
           size="2x"
-          icon={faPlay}
+          icon={isPlaying ? faPause : faPlay}
         />
         <FontAwesomeIcon
           className="skip-forward"
