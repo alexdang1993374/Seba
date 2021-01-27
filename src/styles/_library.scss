@@ -15,6 +15,10 @@
   }
 }
 
+.library-title {
+  user-select: none;
+}
+
 .library-song {
   display: flex;
   align-items: center;
