@@ -28,7 +28,12 @@ h4 {
   margin-left: 10%;
 }
 
+.info-active {
+  margin-left: 10%;
+}
+
 @import "./song";
 @import "./player";
 @import "./library";
 @import "./nav";
+@import "./info";

@@ -4,6 +4,7 @@ import Player from "./components/Player";
 import Song from "./components/Song";
 import Library from "./components/Library";
 import Nav from "./components/Nav";
+import Info from "./components/Info";
 //Data
 import data from "./data";
 //Style
@@ -20,6 +21,7 @@ function App() {
     animationPercentage: 0,
   });
   const [libraryStatus, setLibraryStatus] = useState(false);
+  const [infoStatus, setInfoStatus] = useState(false);
   //Ref
   const audioRef = useRef(null);
 
@@ -46,8 +48,17 @@ function App() {
   };
 
   return (
-    <div className={`App ${libraryStatus ? "library-active" : ""}`}>
-      <Nav libraryStatus={libraryStatus} setLibraryStatus={setLibraryStatus} />
+    <div
+      className={`App ${
+        libraryStatus ? "library-active" : infoStatus ? "info-active" : ""
+      }`}
+    >
+      <Nav
+        libraryStatus={libraryStatus}
+        setLibraryStatus={setLibraryStatus}
+        infoStatus={infoStatus}
+        setInfoStatus={setInfoStatus}
+      />
       <Song currentSong={currentSong} />
       <Player
         songs={songs}
@@ -68,6 +79,7 @@ function App() {
         setSongs={setSongs}
         libraryStatus={libraryStatus}
       />
+      <Info infoStatus={infoStatus} />
       <audio
         onTimeUpdate={timeUpdateHandler}
         onLoadedMetadata={timeUpdateHandler}
