@@ -8,6 +8,8 @@ Seba is my tribute to the late and great Nujabes.  Users can listen to a library
 <h1 id="user_guide">User Guide</h1>
 Go to <a href="https://seba-45e88.web.app/">seba-45e88.web.app</a> to drift away like a feather in air.
 
+Seba is also mobile friendly.
+
 ## To start the app:
 
 ### Run
