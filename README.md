@@ -5,8 +5,8 @@
 <h1 id="intro">Introduction</h1>
 Seba is my tribute to the late and great Nujabes.  Users can listen to a library of some of my favorite Nujabes songs with more on the way.  Rest in beats.
 
-<!-- <h1 id="user_guide">User Guide</h1>
-Go to <a href="https://revive-games.herokuapp.com/">revive-games.herokuapp.com</a> to see Revive in action! -->
+<h1 id="user_guide">User Guide</h1>
+Go to <a href="https://seba-45e88.web.app/">seba-45e88.web.app</a> to drift away like a feather in air.
 
 ## To start the app:
 
