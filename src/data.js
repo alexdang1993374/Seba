@@ -1,15 +1,15 @@
 import { v4 as uuidv4 } from "uuid";
 //Audio
-import blessingIt from "./audio/blessingit.wav";
-import feather from "./audio/feather.wav";
-import kumomi from "./audio/kumomi.wav";
-import lady from "./audio/lady.wav";
-import reflection from "./audio/reflection.wav";
-import luv1 from "./audio/luv1.wav";
-import luv2 from "./audio/luv2.wav";
-import luv3 from "./audio/luv3.wav";
-import fowl from "./audio/fowl.wav";
-import another from "./audio/another.wav";
+import blessingIt from "./audio/blessingit.mp3";
+import feather from "./audio/feather.mp3";
+import kumomi from "./audio/kumomi.mp3";
+import lady from "./audio/lady.mp3";
+import reflection from "./audio/reflection.mp3";
+import luv1 from "./audio/luv1.mp3";
+import luv2 from "./audio/luv2.mp3";
+import luv3 from "./audio/luv3.mp3";
+import fowl from "./audio/fowl.mp3";
+import another from "./audio/another.mp3";
 
 function data() {
   return [
