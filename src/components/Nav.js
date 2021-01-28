@@ -21,7 +21,7 @@ const Nav = ({
   return (
     <nav>
       <h1>Seba</h1>
-      <div>
+      <div className="nav-buttons">
         <button onClick={libraryHandler}>
           Library
           <FontAwesomeIcon className="font-icon" icon={faMusic} />
