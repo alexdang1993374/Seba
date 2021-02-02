@@ -8,6 +8,7 @@ import reflection from "./audio/reflection.mp3";
 import luv1 from "./audio/luv1.mp3";
 import luv2 from "./audio/luv2.mp3";
 import luv3 from "./audio/luv3.mp3";
+import luv4 from "./audio/luv4.mp3";
 import fowl from "./audio/fowl.mp3";
 import another from "./audio/another.mp3";
 
@@ -70,6 +71,15 @@ function data() {
       artist: "Nujabes, Shing02",
       audio: luv3,
       color: ["#3963AC", "#EEB2CC"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Luv (sic) pt4",
+      cover: "https://i1.sndcdn.com/artworks-000374529984-6nwfq2-t500x500.jpg",
+      artist: "Nujabes, Shing02",
+      audio: luv4,
+      color: ["#F9DC4A", "#E88769"],
       id: uuidv4(),
       active: false,
     },
