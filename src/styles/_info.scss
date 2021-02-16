@@ -17,7 +17,7 @@
     padding: 2rem;
   }
   img {
-    width: 70%;
+    width: 80%;
     border-radius: 50%;
     margin-bottom: 3rem;
   }
@@ -49,5 +49,10 @@
 @media screen and (max-width: 768px) {
   .info {
     width: 100%;
+    img {
+      width: 50%;
+      border-radius: 50%;
+      margin-bottom: 3rem;
+    }
   }
 }
