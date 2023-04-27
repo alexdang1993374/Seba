@@ -1,22 +1,30 @@
-# Seba
+# Seba: Embrace the Nujabes Vibes 🎧
 
-<img  src="./seba.PNG" alt="demo">
+![Seba demo](./seba.PNG)
 
-<h1 id="intro">Introduction</h1>
-Seba is my tribute to the late and great Nujabes.  Users can listen to a library of some of my favorite Nujabes songs with more on the way.  Rest in beats.
+<h1 id="intro">Welcome to Seba</h1>
+Introducing Seba, my homage to the legendary Nujabes. Delight your ears with a curated collection of my favorite Nujabes tracks and stay tuned for more. Immerse yourself in the soothing soundscapes of the GOAT. Rest in beats.
 
-<h1 id="user_guide">User Guide</h1>
-Go to <a href="https://seba-45e88.web.app/">seba-45e88.web.app</a> to drift away like a feather in air.
+<h1 id="user_guide">How to Enjoy Seba</h1>
+Ready for a transcendent experience? Visit <a href="https://seba-45e88.web.app/">seba-45e88.web.app</a> and let the music carry you like a feather in the wind.
 
-Seba is also mobile friendly.
+Good news: Seba is mobile-friendly too!
 
-## To start the app:
+## Unleash Seba:
 
-### Run
+### Install Dependencies
+
+First, install the required dependencies using:
+
+### `yarn install`
+
+### Run the App
+
+Next, start the app with:
 
 ### `yarn start`
 
-Open localhost:3000 to open the app in the browser.
+Launch the app in your browser at localhost:3000.
 
-<h1 id="tech_stack">Tech Stack</h1>
-Seba was made using React.
+<h1 id="tech_stack">Behind the Scenes</h1>
+Seba is brought to life using the power of React.
